@@ -1,0 +1,5 @@
+<select [(ngModel)]="authorSelect" name="authors" id="authors" (change)="changeSelectedAuthor($event)">
+  @for (author of authors; track author) {
+    <option [value]="author">{{ author }}</option>
+  }
+</select>

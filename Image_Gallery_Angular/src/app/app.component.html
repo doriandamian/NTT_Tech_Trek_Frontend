@@ -1,0 +1,9 @@
+<p>Author</p>
+<div class="selector">
+  <app-authors [authors]="authors" (selectedAuthor)="onAuthorChange($event)"></app-authors>
+</div>
+<div class="contents">
+  @for (image of selectedAuthorImages; track image.id) {
+    <app-card [imageTitle]="image.author" [imageSource]="image.download_url"></app-card>
+  }
+</div>
