@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("assets/floor_bg_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 0;
+  height: 100%;
+  width: 12vh;
+}
+
+.sidebar * {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.levelButton{
+  height: 70%;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.levelButton * {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 80%;
+  min-height: 15px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+#logout_button {
+  opacity: 0.4;
+  height: 3%;
+  margin-top: 3vh;
+}
