@@ -1,0 +1,3 @@
+[submodule "utcn-ai-pacman-framework"]
+	path = utcn-ai-pacman-framework
+	url = git@github.com:doriandamian/utcn-ai-pacman-framework.git
